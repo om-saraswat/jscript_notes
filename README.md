@@ -38,7 +38,7 @@ Contributions are welcome! If you have any ideas, suggestions, or improvements, 
 ## Contact 📬
 If you have any questions or just want to connect, you can reach me at:
 - **Email:** sharmaom27022004@gmail.com
-- **Linkedin:** [@om-saraswat]([https://www.linkedin.com/in/om-saraswat/])
+- **Linkedin:** [@om-saraswat](https://www.linkedin.com/in/om-saraswat/)
 
 Happy coding! 💖
 

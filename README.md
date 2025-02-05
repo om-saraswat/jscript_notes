@@ -37,9 +37,9 @@ Contributions are welcome! If you have any ideas, suggestions, or improvements, 
 
 ## Contact 📬
 If you have any questions or just want to connect, you can reach me at:
-- **Email:** your.email@example.com
-- **Twitter:** [@yourusername](https://twitter.com/yourusername)
+- **Email:** sharmaom27022004@gmail.com
+- **Linkedin:** [@om-saraswat](https://www.linkedin.com/in/om-saraswat/)
 
 Happy coding! 💖
 
-# Contributer : @Rohan Bhardwaj
+# Contributer : @Om Saraswat

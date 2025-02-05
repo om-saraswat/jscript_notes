@@ -6,6 +6,10 @@ class user {
     logMe(){
         console.log(`${this.username} is active`)
     }
+    //<---STATIC IMPLEMENTATION--->
+    static createid(){     //because of static  createid cannot access by any object
+        return  `1234`;
+    }
 }
 class teacher extends user{
     constructor(username,email,password){
@@ -33,3 +37,7 @@ console.log(user instanceof teacher)  //false
 console.log(Rohan instanceof teacher)  //false
 console.log(Rohan instanceof user)  //true
 
+//<---STATIC WORKING--->
+
+//  Om.createid(); //cannot work
+console.log(teacher.createid())  //it is work becuase static gave only access to child class not its instance

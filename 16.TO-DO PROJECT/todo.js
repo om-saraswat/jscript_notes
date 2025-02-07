@@ -10,8 +10,7 @@ neweventadd.addEventListener('keydown', function(e) {
 
 function addtodo(value){
     const list = document.querySelector('.list')
-    //create a new list for new element
-
+    
     const li = document.createElement('li')
 
     const img = document.createElement('img')    
@@ -27,8 +26,28 @@ function addtodo(value){
     
     
     img.addEventListener('click', function () {
-        list.removeChild(li); // Remove the <li> when the image is clicked
+        list.removeChild(li); 
     });
 
 }
+
+const searchBar = document.getElementById('search_b');
+
+searchBar.addEventListener('input', function () {
+    let filter = searchBar.value.toLowerCase();
+    let items = document.querySelectorAll('.list li'); 
+
+    items.forEach(item => {
+        let text = item.textContent.toLowerCase();
+        if (text.includes(filter)) {                        //include function check the filter contain the substring or not.   
+            item.style.display = ''; // Show the item
+        } else {
+            item.style.display = 'none'; // Hide the item
+        }
+    });
+});
+
+
+
+
 

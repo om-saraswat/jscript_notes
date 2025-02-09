@@ -24,8 +24,8 @@ Here are some of the projects you'll find in this repository:
 - **Project 1:** To-Do List App
 - **Project 2:** Weather App
   
-/*- **Project 4:** Interactive Quiz */
-/*- **Project 1:** Simple Calculator */
+/*- **Project 4:** Interactive Quiz 
+- **Project 1:** Simple Calculator */
 
 ## Resources 📖
 Check out these resources to enhance your JavaScript skills:

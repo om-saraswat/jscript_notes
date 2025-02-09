@@ -23,6 +23,7 @@ To get started with the projects in this repository, follow these steps:
 Here are some of the projects you'll find in this repository:
 - **Project 1:** To-Do List App
 - **Project 2:** Weather App
+  
 /*- **Project 4:** Interactive Quiz */
 /*- **Project 1:** Simple Calculator */
 

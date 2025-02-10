@@ -80,13 +80,13 @@ input[value="/"] {
 }
 
 input[value="+"] {
-    grid-area: 5 / 4;
+    grid-area: 4 / 4;
 }
 
 input[value="0"] {
-    grid-area: 5 / 1;
+    grid-area: 5 / 2;
 }
 
 input[value="."] {
-    grid-area: 5 / 2;
+    grid-area: 5 / 1;
 }

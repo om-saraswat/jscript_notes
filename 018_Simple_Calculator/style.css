@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    border: 1px solid #555; /* Darker border for contrast */
+    border-radius: 15px; 
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(5, 80px);
+    gap: 10px;
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+}
+
+input[type="text"] {
+    grid-column: span 3;
+    padding: 15px;
+    font-size: 24px;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    background: rgba(255, 255, 255, 0.2); /* Light transparent background */
+    color: #fff; /* White text for contrast */
+}
+
+#clear {
+    grid-column: 4;
+    background-color: #ff6f61; /* Warmer red */
+    color: white;
+}
+
+#clear:hover {
+    background-color: #e65c50;
+}
+
+input[type="button"] {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2); /* Transparent buttons */
+    color: #fff; /* White text */
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+input[value="="] {
+    grid-area: 5 / 3;
+    background: #4CAF50; /* Green */
+    color: white;
+}
+
+input[value="="]:hover {
+    background: #388E3C;
+}
+
+input[value="/"] {
+    grid-area: 2 / 4;
+}
+
+input[value="+"] {
+    grid-area: 5 / 4;
+}
+
+input[value="0"] {
+    grid-area: 5 / 1;
+}
+
+input[value="."] {
+    grid-area: 5 / 2;
+}

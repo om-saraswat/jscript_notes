@@ -50,7 +50,7 @@ input[type="text"] {
     background-color: #e65c50;
 }
 
-input[type="button"] {
+button {
     padding: 15px;
     font-size: 20px;
     border: none;
@@ -61,32 +61,32 @@ input[type="button"] {
     transition: background-color 0.3s ease;
 }
 
-input[type="button"]:hover {
+button:hover {
     background-color: rgba(255, 255, 255, 0.4);
 }
 
-input[value="="] {
+button[value="="] {
     grid-area: 5 / 3;
     background: #4CAF50; /* Green */
     color: white;
 }
 
-input[value="="]:hover {
+button[value="="]:hover {
     background: #388E3C;
 }
 
-input[value="/"] {
+button[value="/"] {
     grid-area: 2 / 4;
 }
 
-input[value="+"] {
+button[value="+"] {
     grid-area: 4 / 4;
 }
 
-input[value="0"] {
+button[value="0"] {
     grid-area: 5 / 2;
 }
 
-input[value="."] {
+button[value="."] {
     grid-area: 5 / 1;
 }

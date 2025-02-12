@@ -10,31 +10,32 @@
     <div class="con">
         <div class="calculator">
             <input type="text" id="display">
-            <input type="button" value="C" id="clear">
+            <button onclick="clearp()" id="clear">C</button>
             
             
             
-            <input type="button" value="7">
-            <input type="button" value="8">
-            <input type="button" value="9">
-            <input type="button" value="/">
+            <button onclick="appendinput('7')">7</button>
+            <button onclick="appendinput('8')">8</button>
+           
+            <button onclick="appendinput('9')">9</button>
+            <button onclick="appendinput('/')">/</button>
             
-            <input type="button" value="4">
-            <input type="button" value="5">
-            <input type="button" value="6">
-            <input type="button" value="*">
+            <button onclick="appendinput('4')">4</button>
+            <button onclick="appendinput('5')">5</button>
+            <button onclick="appendinput('6')">6</button>
+            <button onclick="appendinput('*')">*</button>
 
             
-            <input type="button" value="1">
-            <input type="button" value="2">
-            <input type="button" value="3">
-            <input type="button" value="+">
+            <button onclick="appendinput('1')">1</button>
+            <button onclick="appendinput('2')">2</button>
+            <button onclick="appendinput('3')">3</button>
+            <button onclick="appendinput('+')">+</button>
 
             
-            <input type="button" value="0">
-            <input type="button" value="-">
-            <input type="button" value=".">
-            <input type="button" value="=">
+            <button onclick="appendinput('0')">0</button>
+            <button onclick="appendinput('-')">-</button>
+            <button onclick="appendinput('.')">.</button>
+            <button onclick="cal()">=</button>
         </div>
     </div>
 </body>
